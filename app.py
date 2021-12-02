@@ -24,9 +24,11 @@ app.layout = html.Div(
             [3,"Lithium","Li",6.941],
             [4,"Beryllium","Be",9.012],
         ],
+
         cols=["AtomicNumber"],
         rows=["Element"],
         vals=["Count"]
     )
 )
 
+app.run_server(debug=True, host="0.0.0.0")
